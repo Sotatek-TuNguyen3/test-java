@@ -6,6 +6,15 @@
 - Maven + Hibernate + Lombok
 
 **Create DB**
+- I have also created an online database. You can connect directly here without having to install it on your computer
+```
+Server: sql6.freemysqlhosting.net
+Name: sql6477848
+Username: sql6477848
+Password: 25DABDHNYX
+Port number: 3306
+```
+- Run on localhost
 ```
 spring.datasource.url = jdbc:mysql://localhost:3306/test-java?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
 spring.datasource.username = root
