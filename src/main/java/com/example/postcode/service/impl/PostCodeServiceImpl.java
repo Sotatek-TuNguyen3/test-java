@@ -8,10 +8,12 @@ import com.example.postcode.repository.PostCodeRepository;
 import com.example.postcode.service.PostCodeService;
 import org.hibernate.service.spi.ServiceException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class PostCodeServiceImpl implements PostCodeService {
 
     private static final String SUCCESS_STATUS = "SUCCESS";
