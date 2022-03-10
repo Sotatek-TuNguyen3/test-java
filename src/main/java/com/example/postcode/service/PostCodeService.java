@@ -10,7 +10,7 @@ public interface PostCodeService {
 
     ResponseModel<List<PostCodeDto>> getAllPostCode();
 
-    ResponseModel<List<PostCodeDto>> getByPostCode(List<String> postcodes);
+    ResponseModel<List<PostCodeDto>> getByPostCode(List<Integer> postcodes);
 
     ResponseModel<?> createNewPostCode(PostCodeRequest requestModel);
 }

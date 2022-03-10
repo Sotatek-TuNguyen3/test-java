@@ -35,7 +35,7 @@ public class PostCodeController {
     }
 
     @RequestMapping("/postcode")
-    public ResponseModel<List<PostCodeDto>> getByPostCode(@RequestBody(required = false) List<String> postcodes) {
+    public ResponseModel<List<PostCodeDto>> getByPostCode(@RequestBody(required = false) List<Integer> postcodes) {
 
         ResponseModel<List<PostCodeDto>> responseModel = new ResponseModel<>();
 

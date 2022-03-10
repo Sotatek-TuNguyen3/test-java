@@ -7,5 +7,5 @@ import java.util.List;
 
 public interface PostCodeRepository extends JpaRepository<PostCodeEntity, Long> {
 
-    List<PostCodeEntity> findByPostCodeInOrderBySuburbName(List<String> postcodes);
+    List<PostCodeEntity> findByPostCodeInOrderBySuburbName(List<Integer> postcodes);
 }

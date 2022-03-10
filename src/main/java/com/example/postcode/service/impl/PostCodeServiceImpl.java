@@ -49,7 +49,7 @@ public class PostCodeServiceImpl implements PostCodeService {
     }
 
     @Override
-    public ResponseModel<List<PostCodeDto>> getByPostCode(List<String> postcodes) {
+    public ResponseModel<List<PostCodeDto>> getByPostCode(List<Integer> postcodes) {
         try {
             ResponseModel<List<PostCodeDto>> responseModel = new ResponseModel<>();
             List<PostCodeDto> listPostCodeDto = new ArrayList<>();
